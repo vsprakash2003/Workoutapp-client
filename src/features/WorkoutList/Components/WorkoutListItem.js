@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import {StyledTable} from '../StyledComponents/StyledTable'
+import {StyledPagination} from '../StyledComponents/StyledPagination'
 
-export class WorkoutListItem extends React.Component {
-    render() {
-        return (
-            <div>
-               <h4 className = "center">Workout List</h4> 
-            </div>
+export class WorkoutListItem extends React.Component{
+    render(){
+        return(
+             <div>
+                <StyledTable/>
+                <StyledPagination/>     
+             </div>
         )
     }
 }
-
-export default WorkoutListItem
