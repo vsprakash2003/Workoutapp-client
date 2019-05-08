@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -20,7 +20,7 @@ function createData(name, calories, fat) {
     };
 }
 
-export class StyledPagination extends React.Component {
+export class StyledPagination extends Component {
   state = {
     rows: [
       createData('Cupcake', 305, 3.7),

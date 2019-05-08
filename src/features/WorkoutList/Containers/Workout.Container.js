@@ -1,7 +1,7 @@
-import React from 'react'
-import {WorkoutListItem} from './../StyledComponents/WorkoutListItem'
+import React, {Component} from 'react'
+import {WorkoutListItem} from '../StyledComponents/WorkoutListItem'
 
-export default class Workout extends React.Component {
+export default class Workout extends Component {
 
     loadWorkoutListItem = () => {
         return <WorkoutListItem / >

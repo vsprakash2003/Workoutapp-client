@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {StyledTable} from '../StyledComponents/StyledTable'
 import {StyledPagination} from '../StyledComponents/StyledPagination'
 
-export class WorkoutListItem extends React.Component{
+export class WorkoutListItem extends Component{
     render(){
         return(
              <div>

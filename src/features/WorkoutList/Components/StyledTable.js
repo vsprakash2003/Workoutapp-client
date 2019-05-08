@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import IconButton from '@material-ui/core/IconButton';
 import FirstPageIcon from '@material-ui/icons/FirstPage';
@@ -7,7 +7,7 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import LastPageIcon from '@material-ui/icons/LastPage';
 
-export class StyledTable extends React.Component {
+export class StyledTable extends Component {
     handleFirstPageButtonClick = event => {
       this.props.onChangePage(event, 0);
     };
@@ -29,7 +29,6 @@ export class StyledTable extends React.Component {
   
     render() {
       const { classes, count, page, rowsPerPage, theme } = this.props;
-       console.log("Props is", this.props) 
       return (
         <div className={classes.root}>
           <IconButton

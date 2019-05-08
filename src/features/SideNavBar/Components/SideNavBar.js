@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
@@ -20,7 +20,7 @@ import Home from '@material-ui/icons/Home';
 import Notes from '@material-ui/icons/Notes';
 
 
-export class SideNavBar extends React.Component {
+export class SideNavBar extends Component {
   state = {
     open: false,
   };
