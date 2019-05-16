@@ -1,6 +1,6 @@
 {
     "App": "workout",
-    "Details": [
+    "Workouts": [
         {
             "Date": "05/01/2019",
             "Activity": "Run",
