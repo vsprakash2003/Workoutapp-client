@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {WorkoutListItem} from './../StyledComponents/WorkoutListItem'
 import {isEmpty, isEqual} from 'lodash'
+import {getConfigProperty} from "../../Settings"
+const ROWS_PER_PAGE = getConfigProperty("rowsPerPage")
+
 
 /** 
  * @desc Workout class
@@ -35,7 +38,7 @@ export default class Workout extends Component {
      */
     
      this.state = {
-
+        workoutListData: []
      }
     }
 
