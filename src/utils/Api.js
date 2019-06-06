@@ -42,7 +42,7 @@ export function requestGet(apiURL, params, callBack) {
     let apiURLWithParams = ""
 
     if (params)
-        apiURLWithParams = '${apiURL}?${params}'
+        apiURLWithParams = `${apiURL}?${params}`
     else
         apiURLWithParams = apiURL
 
@@ -88,7 +88,10 @@ export function callAPI(url, options) {
 export function makeGetCall(url, state) {
     let headerObject = {
         "content-Type": "application/json",
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token",
     }
 
     let options = {
@@ -113,7 +116,10 @@ export function makeGetCall(url, state) {
 export function makePostCall(url, postData, state) {
     let headerObject = {
         "content-Type": "application/json",
-        "Accept": "application/json"
+        "Accept": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token",
     }
 
     let options = {

@@ -28,7 +28,7 @@ export default function configureStore(history) {
         rootReducer(history),
         enhancer
     )
-
+    
     if (process.env.Node_ENV !== "production" && process.env.Node_ENV !== "test" && module.hot) {
         module.hot.accept("./combined.reducer", () => {
             const nextReducer = require("./combined.reducer").default

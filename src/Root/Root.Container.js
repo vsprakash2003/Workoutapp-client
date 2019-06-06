@@ -6,7 +6,7 @@ import * as RootAction from './Root.Action'
 
 export default withRouter(connect(
     (state)=>({
-
+        ...state
     }), 
     (dispatch) => ({
         actions:bindActionCreators(RootAction, dispatch)

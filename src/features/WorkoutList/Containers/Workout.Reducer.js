@@ -1,4 +1,5 @@
-import constant from "./Workout.Constants"
+import constants from "./Workout.Constants"
+
 /**
  * Declare initalState for workout container
  * @constant
@@ -21,12 +22,12 @@ const initialState = {
 
  function reducer(state = initialState, action) {
      switch(action.type) {
-         case constant.GET_LIST_DATA_SUCCESS: {
+         case constants.GET_WORKOUT_LIST_SUCCESS: {
          return Object.assign({}, state, {
-             workoutListData: action.response.GET_LIST_DATA
+             workoutListData: action.response
          })
         }
-          case constant.GET_LIST_DATA_FAILURE: {
+          case constants.GET_WORKOUT_LIST_FAILURE: {
           return Object.assign({}, state, initialState)    
         } 
      default:

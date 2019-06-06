@@ -8,14 +8,7 @@
 const constants = {
     GET_WORKOUT_LIST_REQUEST: "GET_WORKOUT_LIST_REQUEST",
     GET_WORKOUT_LIST_SUCCESS: "GET_WORKOUT_LIST_SUCCESS",
-    GET_WORKOUT_LIST_FAILURE: "GET_WORKOUT_LIST_FAILURE",
-    DEFAULT_REQUEST_DATA: {
-        "App": "workout",
-        "Details": [
-        {
-        }
-      ]
+    GET_WORKOUT_LIST_FAILURE: "GET_WORKOUT_LIST_FAILURE"
     }
-}
 
 export default constants

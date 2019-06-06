@@ -1,11 +1,11 @@
 import { connect } from 'react-redux'
 import {withRouter} from 'react-router'
 import {bindActionCreators} from 'redux'
-import Workout from '../Workout'
-import * as workoutAction from './Workout.Action'
+import Workout from './Workout'
+import * as workoutAction from './Workout.Actions'
 
 export default withRouter(connect(
-    (state)=>({
+    (state) => ({
         workoutListData: state.workoutReducer.workoutListData
     }), 
     (dispatch) => ({

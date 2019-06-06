@@ -1,6 +1,6 @@
-import constant from "./Workout.Constants"
-import {getConfigProperty} from "../../Settings"
-import {makePostCall} from "..utils/Api"
+import constants from "./Workout.Constants"
+import {getConfigProperty} from "../../../settings"
+import {makeGetCall} from "../../../utils/Api"
 const WORKOUT_LIST = getConfigProperty("workoutList")
 
 
@@ -12,9 +12,8 @@ const WORKOUT_LIST = getConfigProperty("workoutList")
 
 export function getWorkoutList(url = WORKOUT_LIST) {
     return (dispatch, getState) => {
-        let postData = constant.DEFAULT_REQUEST_DATA
         dispatch(getWorkoutListRequest(true))
-        return makePostCall(url, postData, getState)
+        return makeGetCall(url, getState)
             .then(res => res.json())
             .then(json => {
                 dispatch(getWorkoutListSuccess(json))
@@ -34,7 +33,7 @@ export function getWorkoutList(url = WORKOUT_LIST) {
 
 export function getWorkoutListRequest(req) {
     return {
-        type: constant.GET_WORKOUT_LIST_REQUEST,
+        type: constants.GET_WORKOUT_LIST_REQUEST,
         req
     }
 }
@@ -46,7 +45,7 @@ export function getWorkoutListRequest(req) {
 
 export function getWorkoutListSuccess(response) {
     return {
-        type: constant.GET_WORKOUT_LIST_SUCCESS,
+        type: constants.GET_WORKOUT_LIST_SUCCESS, 
         response
     }
 }
@@ -58,7 +57,7 @@ export function getWorkoutListSuccess(response) {
 
 export function getWorkoutListFailure(exception) {
     return {
-        type: constant.GET_WORKOUT_LIST_FAILURE,
+        type: constants.GET_WORKOUT_LIST_FAILURE,
         exception
     }
 }

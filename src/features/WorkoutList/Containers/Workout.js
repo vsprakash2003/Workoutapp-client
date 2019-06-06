@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {WorkoutListItem} from './../StyledComponents/WorkoutListItem'
-import {isEmpty, isEqual} from 'lodash'
-import {getConfigProperty} from "../../Settings"
+import {isEmpty, isEqual, isNotEmpty} from 'lodash'
+import {getConfigProperty} from "../../../settings"
 const ROWS_PER_PAGE = getConfigProperty("rowsPerPage")
 
 
@@ -49,7 +49,7 @@ export default class Workout extends Component {
 
     componentWillMount(){
         if(isEmpty(this.props.workoutListData)){
-            this.props.actions.getWorkoutList()
+            this.props.workoutActions.getWorkoutList()
         }     
     } 
 
@@ -67,13 +67,13 @@ export default class Workout extends Component {
     }
 
     loadWorkoutListItem = () => {
-        return <WorkoutListItem / >
+        return <WorkoutListItem data={this.props.workoutListData} / >
     }
 
     render() {
         return (
             <div>
-                {this.loadWorkoutListItem()}
+                {!isEmpty(this.props.workoutListData)? this.loadWorkoutListItem():" "}
             </div>)
     }
 }
