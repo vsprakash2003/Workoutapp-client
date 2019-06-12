@@ -1,21 +1,21 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types'
-import {StyledTable} from '../StyledComponents/StyledTable'
 import {StyledPagination} from '../StyledComponents/StyledPagination'
 
 export class WorkoutListItem extends Component{
 
     static get PropTypes() {
         return {
-            data: PropTypes.object.isRequired
+            rows: PropTypes.object.isRequired,
+            rowsPerPage: PropTypes.number.isRequired,
+            page: PropTypes.number.isRequired
         }
     }
 
     render(){
         return(
              <div>
-                <StyledTable/>
-                <StyledPagination/>     
+                <StyledPagination rows={this.props.rows} rowsPerPage={this.props.rowsPerPage} page={this.props.page}/>     
              </div>
         )
     }

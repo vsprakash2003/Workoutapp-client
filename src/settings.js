@@ -4,7 +4,8 @@ const jsonServerPath = process.env.REACT_APP_JSON_SERVER_API_URL
 export const settings = {
     homeURL: contextPath + '/workoutapp/home',
     workoutList: jsonServerPath + 'Workouts',
-    rowsPerPage: 5
+    rowsPerPage: 5,
+    page: 0
 }
  
 function getConfigProperty(property, section) {

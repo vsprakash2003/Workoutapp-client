@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {WorkoutListItem} from './../StyledComponents/WorkoutListItem'
-import {isEmpty, isEqual, isNotEmpty} from 'lodash'
+import {isEmpty, isEqual} from 'lodash'
 import {getConfigProperty} from "../../../settings"
 const ROWS_PER_PAGE = getConfigProperty("rowsPerPage")
+const PAGE = getConfigProperty("page")
 
 
 /** 
@@ -60,14 +61,14 @@ export default class Workout extends Component {
      */
 
     componentWillReceiveProps(nextProps) {
-        let {workoutListData} = nextProps
+        //let {workoutListData} = nextProps
         if(!isEqual(this.props.workoutListData, nextProps.workoutListData)){
             //do something
         }
     }
 
     loadWorkoutListItem = () => {
-        return <WorkoutListItem data={this.props.workoutListData} / >
+        return <WorkoutListItem rows={this.props.workoutListData} rowsPerPage={ROWS_PER_PAGE}  page={PAGE}/ >
     }
 
     render() {
