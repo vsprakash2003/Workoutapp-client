@@ -9,6 +9,7 @@ import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {StyledTable} from '../StyledComponents/StyledTable'
+import {StyledTableCell} from '../StyledComponents/StyledTableCell'
 
 
 export class StyledPagination extends Component {
@@ -42,12 +43,12 @@ export class StyledPagination extends Component {
           <Table className={classes.table}>
           <TableHead>
           <TableRow>
-            <TableCell align="left">Date</TableCell>
-            <TableCell align="left">Activity</TableCell>
-            <TableCell align="left">Duration</TableCell>
-            <TableCell align="left">Calories</TableCell>
-            <TableCell align="left">Distance</TableCell>
-            <TableCell align="left">Notes</TableCell>
+            <StyledTableCell align="left">Date</StyledTableCell>
+            <StyledTableCell align="left">Activity</StyledTableCell>
+            <StyledTableCell align="left">Duration</StyledTableCell>
+            <StyledTableCell align="left">Calories</StyledTableCell>
+            <StyledTableCell align="left">Distance</StyledTableCell>
+            <StyledTableCell align="left">Notes</StyledTableCell>
           </TableRow>
         </TableHead>
             <TableBody>

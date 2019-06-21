@@ -15,6 +15,11 @@ const tableStyles = theme => ({
     },
   });
 
+/**
+ * @desc wrap the component inside withStyles high order component and apply the custom theme 
+ * @example tyledTableWrapped = withStyles(tableStyles, { withTheme: true })(DefaultStyledTable)
+ */
+
 const StyledTableWrapped = withStyles(tableStyles, { withTheme: true })(DefaultStyledTable)
 export const StyledTable = styled(StyledTableWrapped)`
 `;
