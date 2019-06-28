@@ -10,6 +10,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {StyledTable} from '../StyledComponents/StyledTable'
 import {StyledTableCell} from '../StyledComponents/StyledTableCell'
+import map from 'lodash/map'
 
 
 export class StyledPagination extends Component {
@@ -53,14 +54,13 @@ export class StyledPagination extends Component {
             <TableBody>
               {rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(row => (
                 <TableRow key={row.id}>
-                  <TableCell component="th" scope="row" className = "customDefaultColumnStyle">
-                    {row.Date}
-                  </TableCell>
-                  <TableCell className = "customActivityColumnStyle">{row.Activity}</TableCell>
-                  <TableCell className = "customDefaultColumnStyle">{row.Duration}</TableCell>
-                  <TableCell className = "customDefaultColumnStyle">{row.Calories}</TableCell>
-                  <TableCell className = "customDefaultColumnStyle">{row.Distance}</TableCell>
-                  <TableCell className = "customDefaultColumnStyle">{row.Notes}</TableCell>
+                  {
+                    map(row, item => { 
+                      return (
+                      <TableCell className = "customDefaultColumnStyle">{item}</TableCell>
+                      )
+                    })
+                  }
                 </TableRow>
               ))}
               {emptyRows > 0 && (
