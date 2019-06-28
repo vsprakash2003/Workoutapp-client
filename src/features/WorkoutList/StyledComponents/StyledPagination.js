@@ -16,5 +16,14 @@ const customPaginationStyles = theme => ({
   });
 
 const StyledPaginationWrapped = withStyles(customPaginationStyles)(DefaultStyledPagination)
+
 export const StyledPagination = styled(StyledPaginationWrapped)`
+.customDefaultColumnStyle {
+  width: '2px';
+  align: 'left'
+}
+
+customActivityColumnStyle {
+  width: '3px'
+}
 `;

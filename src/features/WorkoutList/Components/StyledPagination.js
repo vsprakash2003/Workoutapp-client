@@ -35,8 +35,7 @@ export class StyledPagination extends Component {
     const { classes } = this.props;
     const { rows, rowsPerPage, page } = this.props;
     const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
-    const customActivityColumnStyle = { width: "3px"}
-    const customDefaultColumnStyle = {width: "2px"}
+   
     return (
       <Paper className={classes.root}>
         <div className={classes.tableWrapper}>
@@ -54,14 +53,14 @@ export class StyledPagination extends Component {
             <TableBody>
               {rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(row => (
                 <TableRow key={row.id}>
-                  <TableCell component="th" scope="row" style={customDefaultColumnStyle}>
+                  <TableCell component="th" scope="row" className = "customDefaultColumnStyle">
                     {row.Date}
                   </TableCell>
-                  <TableCell align="left" style={customActivityColumnStyle}>{row.Activity}</TableCell>
-                  <TableCell align="left" style={customDefaultColumnStyle}>{row.Duration}</TableCell>
-                  <TableCell align="left" style={customDefaultColumnStyle}>{row.Calories}</TableCell>
-                  <TableCell align="left" style={customDefaultColumnStyle}>{row.Distance}</TableCell>
-                  <TableCell align="left" style={customDefaultColumnStyle}>{row.Notes}</TableCell>
+                  <TableCell className = "customActivityColumnStyle">{row.Activity}</TableCell>
+                  <TableCell className = "customDefaultColumnStyle">{row.Duration}</TableCell>
+                  <TableCell className = "customDefaultColumnStyle">{row.Calories}</TableCell>
+                  <TableCell className = "customDefaultColumnStyle">{row.Distance}</TableCell>
+                  <TableCell className = "customDefaultColumnStyle">{row.Notes}</TableCell>
                 </TableRow>
               ))}
               {emptyRows > 0 && (
