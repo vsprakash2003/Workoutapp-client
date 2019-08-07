@@ -1,28 +1,27 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
 
-import Drawer from '@material-ui/core/Drawer';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import Home from '@material-ui/icons/Home';
-import Notes from '@material-ui/icons/Notes';
-
+import Drawer from "@material-ui/core/Drawer";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import List from "@material-ui/core/List";
+import Typography from "@material-ui/core/Typography";
+import Divider from "@material-ui/core/Divider";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import Home from "@material-ui/icons/Home";
+import Notes from "@material-ui/icons/Notes";
 
 export class SideNavBar extends Component {
   state = {
-    open: false,
+    open: false
   };
 
   handleDrawerOpen = () => {
@@ -43,7 +42,7 @@ export class SideNavBar extends Component {
         <AppBar
           position="fixed"
           className={classNames(classes.appBar, {
-            [classes.appBarShift]: open,
+            [classes.appBarShift]: open
           })}
         >
           <Toolbar disableGutters={!open}>
@@ -66,19 +65,25 @@ export class SideNavBar extends Component {
           anchor="left"
           open={open}
           classes={{
-            paper: classes.drawerPaper,
+            paper: classes.drawerPaper
           }}
         >
           <div className={classes.drawerHeader}>
             <IconButton onClick={this.handleDrawerClose}>
-              {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+              {theme.direction === "ltr" ? (
+                <ChevronLeftIcon />
+              ) : (
+                <ChevronRightIcon />
+              )}
             </IconButton>
           </div>
           <Divider />
           <List>
-            {['Home', 'Form'].map((text, index) => (
+            {["Home", "Form"].map((text, index) => (
               <ListItem button key={text}>
-                <ListItemIcon>{index % 2 === 0 ? <Home /> : <Notes />}</ListItemIcon>
+                <ListItemIcon>
+                  {index % 2 === 0 ? <Home /> : <Notes />}
+                </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
             ))}
@@ -86,7 +91,7 @@ export class SideNavBar extends Component {
         </Drawer>
         <main
           className={classNames(classes.content, {
-            [classes.contentShift]: open,
+            [classes.contentShift]: open
           })}
         >
           <div className={classes.drawerHeader} />
@@ -98,5 +103,5 @@ export class SideNavBar extends Component {
 
 SideNavBar.propTypes = {
   classes: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired
 };

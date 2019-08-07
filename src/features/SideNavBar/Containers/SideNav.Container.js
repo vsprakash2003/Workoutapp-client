@@ -1,16 +1,12 @@
-import React, {Component} from 'react'
-import {SideNavBar} from '../StyledComponents/SideNavBar'
+import React, { Component } from "react";
+import { SideNavBar } from "../StyledComponents/SideNavBar";
 
 export default class SideNav extends Component {
+  loadSideNavBar = () => {
+    return <SideNavBar />;
+  };
 
-    loadSideNavBar = () => {
-        return <SideNavBar / >
-    }
-
-    render() {
-        return (
-            <div className="sidenav-bar-container">
-                {this.loadSideNavBar()}
-            </div>)
-    }
+  render() {
+    return <div className="sidenav-bar-container">{this.loadSideNavBar()}</div>;
+  }
 }

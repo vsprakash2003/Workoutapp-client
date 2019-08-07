@@ -1,30 +1,8 @@
-import constants from "./Workout.Constants"
-import {getConfigProperty} from "../../../settings"
-import {makeGetCall} from "../../../utils/Api"
-const WORKOUT_LIST = getConfigProperty("workoutList")
+import constants from "./Workout.Constants";
+import { getConfigProperty } from "../../../settings";
+import { makeGetCall } from "../../../utils/Api";
 
-
-/**
- * @desc getWorkOutList to get list of workouts
- * @param {string} url - url to get the list from
- * @return {object} - Returns promise
- */
-
-export function getWorkoutList(url = WORKOUT_LIST) {
-    return (dispatch, getState) => {
-        dispatch(getWorkoutListRequest(true))
-        return makeGetCall(url, getState)
-            .then(res => res.json())
-            .then(json => {
-                dispatch(getWorkoutListSuccess(json))
-                dispatch(getWorkoutListRequest(false))
-            })
-            .catch(ex => {
-                dispatch(getWorkoutListFailure(ex))
-                dispatch(getWorkoutListRequest(false))
-            })
-    }
-}
+const WORKOUT_LIST = getConfigProperty("workoutList");
 
 /**
  * #desc getWorkoutListRequest - request sent for fetching workout list data
@@ -32,10 +10,10 @@ export function getWorkoutList(url = WORKOUT_LIST) {
  */
 
 export function getWorkoutListRequest(req) {
-    return {
-        type: constants.GET_WORKOUT_LIST_REQUEST,
-        req
-    }
+  return {
+    type: constants.GET_WORKOUT_LIST_REQUEST,
+    req
+  };
 }
 
 /**
@@ -44,10 +22,10 @@ export function getWorkoutListRequest(req) {
  */
 
 export function getWorkoutListSuccess(response) {
-    return {
-        type: constants.GET_WORKOUT_LIST_SUCCESS, 
-        response
-    }
+  return {
+    type: constants.GET_WORKOUT_LIST_SUCCESS,
+    response
+  };
 }
 
 /**
@@ -56,8 +34,30 @@ export function getWorkoutListSuccess(response) {
  */
 
 export function getWorkoutListFailure(exception) {
-    return {
-        type: constants.GET_WORKOUT_LIST_FAILURE,
-        exception
-    }
+  return {
+    type: constants.GET_WORKOUT_LIST_FAILURE,
+    exception
+  };
+}
+
+/**
+ * @desc getWorkOutList to get list of workouts
+ * @param {string} url - url to get the list from
+ * @return {object} - Returns promise
+ */
+
+export function getWorkoutList(url = WORKOUT_LIST) {
+  return (dispatch, getState) => {
+    dispatch(getWorkoutListRequest(true));
+    return makeGetCall(url, getState)
+      .then(res => res.json())
+      .then(json => {
+        dispatch(getWorkoutListSuccess(json));
+        dispatch(getWorkoutListRequest(false));
+      })
+      .catch(ex => {
+        dispatch(getWorkoutListFailure(ex));
+        dispatch(getWorkoutListRequest(false));
+      });
+  };
 }
