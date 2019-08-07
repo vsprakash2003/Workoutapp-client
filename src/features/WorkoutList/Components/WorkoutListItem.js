@@ -1,13 +1,30 @@
-import React from 'react'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { StyledPagination } from "../StyledComponents/StyledPagination";
 
-export class WorkoutListItem extends React.Component {
-    render() {
-        return (
-            <div>
-               <h4 className = "center">Workout List</h4> 
-            </div>
-        )
-    }
+// eslint-disable-next-line import/prefer-default-export
+export class WorkoutListItem extends Component {
+  static get PropTypes() {
+    return {
+      rows: PropTypes.object.isRequired,
+      rowsPerPage: PropTypes.number.isRequired,
+      page: PropTypes.number.isRequired
+    };
+  }
+
+  render() {
+    const { rows, rowsPerPage, page } = this.props;
+    return (
+      <div>
+        <StyledPagination rows={rows} rowsPerPage={rowsPerPage} page={page} />
+      </div>
+    );
+  }
 }
 
-export default WorkoutListItem
+WorkoutListItem.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  rows: PropTypes.object.isRequired,
+  rowsPerPage: PropTypes.number.isRequired,
+  page: PropTypes.number.isRequired
+};
