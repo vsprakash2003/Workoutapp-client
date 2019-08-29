@@ -1,9 +1,9 @@
 {
     "source": "./src",
     "destination": "./docs",
-    "plugins": [{"name": "esdoc-standard-plugin"}],
-    "test": {
-        "test": "mocha",
-        "source": "./test"
-    }
+    "plugins": [
+      {"name": "esdoc-standard-plugin"},
+      {"name": "esdoc-external-ecmascript-plugin", "option": {"enable": true}},
+      {"name": "esdoc-jsx-plugin", "option": {"enable": true}}
+    ]
   }

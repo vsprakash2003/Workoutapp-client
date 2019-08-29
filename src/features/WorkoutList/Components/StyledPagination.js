@@ -9,6 +9,8 @@ import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import map from "lodash/map";
+import omit from "lodash/omit";
+
 // eslint-disable-next-line prettier/prettier
 import {StyledTable} from "../StyledComponents/StyledTable";
 // eslint-disable-next-line prettier/prettier
@@ -16,6 +18,13 @@ import {StyledTableCell} from "../StyledComponents/StyledTableCell";
 
 // eslint-disable-next-line import/prefer-default-export
 export class StyledPagination extends Component {
+  dropId = rows => {
+    return map(rows, entry => {
+      const row = omit(entry, "id");
+      return row;
+    });
+  };
+
   handleChangePage = (event, page) => {
     // eslint-disable-next-line react/no-unused-state
     this.setState({ page });
@@ -26,12 +35,13 @@ export class StyledPagination extends Component {
     this.setState({ page: 0, rowsPerPage: event.target.value });
   };
 
+
   render() {
     const { classes } = this.props;
     const { rows, rowsPerPage, page } = this.props;
+    const rowsSansId = this.dropId(rows);
     const emptyRows =
       rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
-
     return (
       <Paper className={classes.root}>
         <div className={classes.tableWrapper}>
@@ -47,7 +57,7 @@ export class StyledPagination extends Component {
               </TableRow>
             </TableHead>
             <TableBody>
-              {rows
+              {rowsSansId
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map(row => (
                   <TableRow key={row.id}>
@@ -94,7 +104,7 @@ StyledPagination.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
   // eslint-disable-next-line react/forbid-prop-types
-  rows: PropTypes.object.isRequired,
+  rows: PropTypes.array.isRequired,
   rowsPerPage: PropTypes.number.isRequired,
   page: PropTypes.number.isRequired
 };

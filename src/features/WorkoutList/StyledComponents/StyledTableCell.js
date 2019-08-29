@@ -22,4 +22,5 @@ const tableCellStyles = theme => ({
  */
 
 const StyledTableCellWrapped = withStyles(tableCellStyles)(TableCell);
+// eslint-disable-next-line import/prefer-default-export
 export const StyledTableCell = styled(StyledTableCellWrapped)``;

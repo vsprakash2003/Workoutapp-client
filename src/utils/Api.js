@@ -12,15 +12,10 @@ const SUCCESS_RESPONSE_MAX_LIMIT = 300;
  */
 
 export function requestPost(apiURL, postData, callBack) {
-  const headerObject = {
-    "content-Type": "application/json",
-    Accept: "application/json"
-  };
-
   const paramsObject = {
     method: "POST",
     body: JSON.stringify(postData),
-    headers: new Headers(headerObject)
+    headers: { "content-Type": "application/json", Accept: "application/json" }
   };
 
   return fetch(apiURL, paramsObject)
@@ -87,7 +82,7 @@ export function callAPI(url, options) {
  * @param (string) state - query state for the get request
  * @return (promise) fetch - Promise return from the fetch get request
  */
-export function makeGetCall(url, state) {
+export const makeGetCall = async url => {
   const headerObject = {
     "content-Type": "application/json",
     Accept: "application/json",
@@ -98,16 +93,17 @@ export function makeGetCall(url, state) {
 
   const options = {
     method: "GET",
-    headers: new Headers(headerObject),
+    headers: headerObject,
     credentials: "same-origin"
   };
 
-  return fetch(url, options)
-    .then(function(response) {
-      return Promise.resolve(response);
-    })
-    .catch(error => Promise.reject(error));
-}
+  const response = await fetch(url, options);
+  if (response.ok) {
+    return response;
+  }
+  const error = new Error(response.statusText);
+  throw error;
+};
 
 /**
  * Common Fetch API for makePostCall

@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +12,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `yarn run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -37,32 +37,171 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## To install yarn
+```bash
+    brew install yarn
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## To install packages
+```bash
+    yarn
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## To add a package
+```bash
+    yarn add {--dev} {package}
+```
 
-### Code Splitting
+## To update packages
+```bash
+    yarn upgrade {package}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## To run lint on all js files
+```bash
+    yarn run eslint '**/*.js'
+```
 
-### Analyzing the Bundle Size
+## To view documentation
+```bash
+    yarn docs
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Add gitignore file
+```bash 
+   touch .gitignore
+```
 
-### Making a Progressive Web App
+## Git commands
+### for develop branch
+```git commands
+git init
+git add .
+git commit -m "first commit"
+git remote add https://github.com/vsprakash2003/MyGraphQLApollo-Client.git
+git push -u origin develop 
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### for feature branch
+```git commands
+git checkout -b origin/f/{branch name}
+git add .
+git commit -m "second commit"
+git push -u origin origin/f/{branch name}
+```
 
-### Advanced Configuration
+### for creating a pull request from feature branch
+```git commands
+git rebase origin/develop
+go to the repo on GitHub and click the feature branch
+create pull request
+fill out the pull request template
+add the PR label "Ready For Review", and assign members (if it is you alone, assign yourself) to the PR
+submit pull request
+```
+### for approving pull request and merging to develop branch
+``` PR instructions
+click on Pull requests tab in github. If there is a PR waiting for approval you will see one
+If there are merge conflicts, tell the committer(s) to pull develop again and review from beginning when they are finished
+merge pull request via GitHub online interface. select "squash and merge" in the dropdown
+delete the branch from GitHub via online interface
+git branch -d origin/f/landingpage. This will delete the branch locally
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### for merging develop branch to master
+```git commands
+git rebase origin/master
+perform the pull request steps from develop branch as detailed above to merge to master
+```
 
-### Deployment
+## for setting up CI/CD using Travis
+### setup travis.yml file
+```bash 
+   travis.yml
+```
+### setup github page for the project
+```
+1. go to github and select the repository
+2. click on settings
+3. scroll down to Github Pages section
+4. select master from the source drop down
+5. select a theme
+6. copy the URL of the new github page for the repo
+```
+### create access token from github for publishing the final build to github pages
+```
+1. navigate to https://github.com/settings/tokens/new
+2. provide a token description
+3. check repo for scope
+4. copy the token generated
+```
+### setup travis site for CI/CD status
+```
+1. sign into https://travis-ci.org with github credentials
+2. projects from github are automatically pulled and available
+3. select the project for which you need to setup CI/CD
+4. click on more options on thr right and select settings
+5. scroll down to Environment variables section and add a new environment variable
+6. Name this variable github_token and for the value paste the token generated by github
+7. Turn off "build pushed branches" in the general settings
+```
+### update travis.yml and package.json to reflect token and github page
+```
+1. update travis.yml with the environment variable github_token (ex: github_token:$github_token)
+2. update package.json and set homepage key as the github page URL value
+```
+### for test coverage
+```
+1. update test key in package.json with CI=true before react-scrips test
+2. create a new key test:coverage and update value as yarn test -- --coverage
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## setup cypress for testing
+### setup cypress account
+```
+login to cypress.io with github credentials
+```
+### install cypress package
+```bash
+yarn add cypress -dev
+```
+### update package.json
+```
+1.
+"test": "CI=true run-p --continue-on-error --race cypress-run"
+"cypress": "cypress open",
+"cypress-run": "cypress run"
+2. run-p refers to npm run all package. That should have been installed prior
+3. --continue-on-error and --race are options to indicate that cypress should not stop if there are errors on a test and complete running through all tests
+```
+### setup cypress.json
+```bash 
+   touch cypress.json
+```
+### setup test specs
+```
+1. create a new integration folder inside cypress folder
+2. add a {}.spec.js file. {} is the name of the test file
+```
+### run tests
+```bash
+yarn test
+```
+### open cypress console (optional if you need to record tests and view in dashboard)
+```bash
+node_modules/.bin/cypress open
+```
+### update gitignore file to ignore cypress videos and screenshots
+```
+add cypress/videos, cypress/screenshots, cypress/results in the list of files to be ignored
+```
+### setup code coverage in cypress
+```
+1. yarn add @cypress/code-coverage @cypress/instrument-cra --dev
+2. modify the start script in package.json to include call to @cypress/instrument-cra
+3. this will create code instrumentation under the hoods
+4. update the test script to ensure nyc package outputs code coverage in text format after tests are run
+5. create a coverage script incase one needs to run the code coverage report and view in html
+6. the output of the html report for coverage is viewed by clicking on index.js in the coverage folder
+```
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

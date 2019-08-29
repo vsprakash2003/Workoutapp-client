@@ -1,0 +1,290 @@
+[
+  {
+    "name": "requestPost",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 5,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 6,
+        "line": " * Common Fetch API for POST request\r"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * @param (string) apiURL - API\r"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param (object) postData - Json body for post request\r"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param (function) callBack - Callback function for returning the successful response\r"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @return (promise) fetch - Promise return from the fetch post request\r"
+      },
+      {
+        "lineNumber": 11,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 12,
+        "line": "\r"
+      },
+      {
+        "lineNumber": 13,
+        "line": "export function requestPost(apiURL, postData, callBack) {\r"
+      }
+    ],
+    "codeParams": [
+      "apiURL",
+      "postData",
+      "callBack"
+    ],
+    "docParams": [
+      "(string)",
+      "(object)",
+      "(function)"
+    ]
+  },
+  {
+    "name": "requestGet",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 33,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 34,
+        "line": " * Common Fetch API for GET request\r"
+      },
+      {
+        "lineNumber": 35,
+        "line": " * @param (string) apiURL - API\r"
+      },
+      {
+        "lineNumber": 36,
+        "line": " * @param (object) params - Json body for get request\r"
+      },
+      {
+        "lineNumber": 37,
+        "line": " * @param (function) callBack - Callback function for returning the successful response\r"
+      },
+      {
+        "lineNumber": 38,
+        "line": " * @return (promise) fetch - Promise return from the fetch get request\r"
+      },
+      {
+        "lineNumber": 39,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 40,
+        "line": "\r"
+      },
+      {
+        "lineNumber": 41,
+        "line": "export function requestGet(apiURL, params, callBack) {\r"
+      }
+    ],
+    "codeParams": [
+      "apiURL",
+      "params",
+      "callBack"
+    ],
+    "docParams": [
+      "(string)",
+      "(object)",
+      "(function)"
+    ]
+  },
+  {
+    "name": "callAPI",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 60,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 61,
+        "line": " * Common Fetch API for callAPI\r"
+      },
+      {
+        "lineNumber": 62,
+        "line": " * @param (string) url - API url\r"
+      },
+      {
+        "lineNumber": 63,
+        "line": " * @param (string) options - query options for the callAPI request\r"
+      },
+      {
+        "lineNumber": 64,
+        "line": " * @return (promise) fetch - Promise return from the fetch callAPI request\r"
+      },
+      {
+        "lineNumber": 65,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 66,
+        "line": "\r"
+      },
+      {
+        "lineNumber": 67,
+        "line": "export function callAPI(url, options) {\r"
+      }
+    ],
+    "codeParams": [
+      "url",
+      "options"
+    ],
+    "docParams": [
+      "(string)",
+      "(string)"
+    ]
+  },
+  {
+    "name": "makeGetCall",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 83,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 84,
+        "line": " * Common Fetch API for makeGetCall\r"
+      },
+      {
+        "lineNumber": 85,
+        "line": " * @param (string) URL - API URL\r"
+      },
+      {
+        "lineNumber": 86,
+        "line": " * @param (string) state - query state for the get request\r"
+      },
+      {
+        "lineNumber": 87,
+        "line": " * @return (promise) fetch - Promise return from the fetch get request\r"
+      },
+      {
+        "lineNumber": 88,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 89,
+        "line": "export function makeGetCall(url, state) {\r"
+      }
+    ],
+    "codeParams": [
+      "url",
+      "state"
+    ],
+    "docParams": [
+      "(string)",
+      "(string)"
+    ]
+  },
+  {
+    "name": "makePostCall",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 111,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 112,
+        "line": " * Common Fetch API for makePostCall\r"
+      },
+      {
+        "lineNumber": 113,
+        "line": " * @param (string) URL - API URL\r"
+      },
+      {
+        "lineNumber": 114,
+        "line": " * @param (object) postData - JSON body for post request\r"
+      },
+      {
+        "lineNumber": 115,
+        "line": " * @param (string) state - state for returning successful response\r"
+      },
+      {
+        "lineNumber": 116,
+        "line": " * @return (promise) fetch - Promise return from the fetch post request\r"
+      },
+      {
+        "lineNumber": 117,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 118,
+        "line": "export function makePostCall(url, postData, state) {\r"
+      }
+    ],
+    "codeParams": [
+      "url",
+      "postData",
+      "state"
+    ],
+    "docParams": [
+      "(string)",
+      "(object)",
+      "(string)"
+    ]
+  },
+  {
+    "name": "makeDeleteCall",
+    "filePath": "src/utils/Api.js",
+    "lines": [
+      {
+        "lineNumber": 141,
+        "line": "/**\r"
+      },
+      {
+        "lineNumber": 142,
+        "line": " * Common Fetch API for makeDeleteCall\r"
+      },
+      {
+        "lineNumber": 143,
+        "line": " * @param (string) URL - API URL\r"
+      },
+      {
+        "lineNumber": 144,
+        "line": " * @param (object) method - JSON body for the request\r"
+      },
+      {
+        "lineNumber": 145,
+        "line": " * @param (string) state - state for returning successful response\r"
+      },
+      {
+        "lineNumber": 146,
+        "line": " * @return (promise) fetch - Promise return from the fetch post request\r"
+      },
+      {
+        "lineNumber": 147,
+        "line": " */\r"
+      },
+      {
+        "lineNumber": 148,
+        "line": "export function makeDeleteCall(url, method, state) {\r"
+      }
+    ],
+    "codeParams": [
+      "url",
+      "method",
+      "state"
+    ],
+    "docParams": [
+      "(string)",
+      "(object)",
+      "(string)"
+    ]
+  }
+]

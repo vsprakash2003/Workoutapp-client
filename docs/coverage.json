@@ -1,0 +1,144 @@
+{
+  "coverage": "36.53%",
+  "expectCount": 52,
+  "actualCount": 19,
+  "files": {
+    "src/App.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/Home/About.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5
+      ]
+    },
+    "src/Home/Home.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/Root/Root.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        9
+      ]
+    },
+    "src/combined.reducer.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        11
+      ]
+    },
+    "src/features/WorkoutList/Components/WorkoutListItem.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        15
+      ]
+    },
+    "src/features/WorkoutList/Containers/Workout.Actions.js": {
+      "expectCount": 5,
+      "actualCount": 4,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/features/WorkoutList/Containers/Workout.Constants.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/features/WorkoutList/Containers/Workout.Reducer.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/features/WorkoutList/StyledComponents/StyledPagination.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        19,
+        24
+      ]
+    },
+    "src/features/WorkoutList/StyledComponents/StyledTable.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        27
+      ]
+    },
+    "src/features/WorkoutList/StyledComponents/StyledTableCell.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        25
+      ]
+    },
+    "src/features/WorkoutList/StyledComponents/WorkoutListItem.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        13,
+        15
+      ]
+    },
+    "src/serviceWorker.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        23,
+        57,
+        101,
+        129
+      ]
+    },
+    "src/settings.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        4,
+        11
+      ]
+    },
+    "src/stores.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        20
+      ]
+    },
+    "src/utils/Api.js": {
+      "expectCount": 8,
+      "actualCount": 6,
+      "undocumentLines": [
+        3,
+        4
+      ]
+    }
+  }
+}

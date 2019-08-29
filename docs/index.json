@@ -1,0 +1,2329 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/App.js",
+    "content": "import React from \"react\";\r\nimport { withRouter } from \"react-router\";\r\nimport logo from \"./logo.svg\";\r\nimport \"./App.css\";\r\n\r\nconst App = () => {\r\n  return (\r\n    <div className=\"App\">\r\n      <header className=\"App-header\">\r\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\r\n        <p>Welcome to Workout App.</p>\r\n        <a\r\n          className=\"App-link\"\r\n          href=\"https://reactjs.org\"\r\n          target=\"_blank\"\r\n          rel=\"noopener noreferrer\"\r\n        >\r\n          Learn React\r\n        </a>\r\n      </header>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default withRouter(App);\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "App",
+    "memberof": "src/App.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/App.js~App",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/Home/About.js",
+    "content": "import React, { Component } from \"react\";\r\nimport { withRouter } from \"react-router\";\r\n\r\nclass About extends Component {\r\n  render() {\r\n    return (\r\n      <div className=\"container\">\r\n        <h4 className=\"center\"> My Workout App</h4>\r\n        <p>lorem ipsum</p>\r\n      </div>\r\n    );\r\n  }\r\n}\r\n\r\nexport default withRouter(About);\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/Home/About.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "class",
+    "name": "About",
+    "memberof": "src/Home/About.js",
+    "static": true,
+    "longname": "src/Home/About.js~About",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/Home/About.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/Home/About.js~About",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Home/About.js~About#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/Home/Home.js",
+    "content": "import React from \"react\";\r\nimport Grid from \"@material-ui/core/Grid\";\r\n/**\r\n * @desc App Layout Component\r\n * @param {object} props - Props from the parent for this stateless component\r\n * @return {ReactElement} Home component markup\r\n */\r\n\r\nfunction Home(props) {\r\n  return (\r\n    <div>\r\n      <Grid>{props.children}</Grid>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default Home;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/Home/Home.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "Home",
+    "memberof": "src/Home/Home.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Home/Home.js~Home",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/Home/Home.js",
+    "importStyle": "Home",
+    "description": "App Layout Component",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "Props from the parent for this stateless component"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ReactElement"
+      ],
+      "spread": false,
+      "description": "Home component markup"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/Root/Root.Action.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/Root/Root.Action.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/Root/Root.js",
+    "content": "import React, { Component } from \"react\";\r\nimport { Route, Switch } from \"react-router\";\r\nimport { BrowserRouter } from \"react-router-dom\";\r\nimport About from \"../Home/About\";\r\nimport WorkoutList from \"../features/WorkoutList/Containers/Workout.Container\";\r\n/* import SideNav from '../features/SideNavBar/Containers/SideNav' */\r\n\r\nexport default class Root extends Component {\r\n  render() {\r\n    return (\r\n      <BrowserRouter>\r\n        <Switch>\r\n          <Route exact path=\"/\" component={WorkoutList} />\r\n          <Route path=\"/about\" component={About} />\r\n        </Switch>\r\n      </BrowserRouter>\r\n    );\r\n  }\r\n}\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/Root/Root.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Root",
+    "memberof": "src/Root/Root.js",
+    "static": true,
+    "longname": "src/Root/Root.js~Root",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/Root/Root.js",
+    "importStyle": "Root",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/Root/Root.js~Root",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Root/Root.js~Root#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/combined.reducer.js",
+    "content": "import { connectRouter } from \"connected-react-router\";\r\nimport { combineReducers } from \"redux\";\r\nimport workoutReducer from \"./features/WorkoutList/Containers/Workout.Reducer\";\r\n\r\nconst createAppReducer = history =>\r\n  combineReducers({\r\n    router: connectRouter(history),\r\n    workoutReducer\r\n  });\r\n\r\nconst rootReducer = history => (state, action) => {\r\n  return createAppReducer(history)(state, action);\r\n};\r\n\r\nexport default rootReducer;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/combined.reducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "createAppReducer",
+    "memberof": "src/combined.reducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/combined.reducer.js~createAppReducer",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/combined.reducer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "history",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "rootReducer",
+    "memberof": "src/combined.reducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/combined.reducer.js~rootReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/combined.reducer.js",
+    "importStyle": "rootReducer",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "history",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/features/SideNavBar/Containers/SideNav.Actions.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/SideNavBar/Containers/SideNav.Actions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/features/SideNavBar/Containers/SideNav.Constants.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/SideNavBar/Containers/SideNav.Constants.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/features/SideNavBar/Containers/SideNav.Reducers.js",
+    "content": "",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/SideNavBar/Containers/SideNav.Reducers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/features/WorkoutList/Components/WorkoutListItem.js",
+    "content": "import React, { Component } from \"react\";\r\nimport PropTypes from \"prop-types\";\r\nimport { StyledPagination } from \"../StyledComponents/StyledPagination\";\r\n\r\n// eslint-disable-next-line import/prefer-default-export\r\nexport class WorkoutListItem extends Component {\r\n  static get PropTypes() {\r\n    return {\r\n      rows: PropTypes.object.isRequired,\r\n      rowsPerPage: PropTypes.number.isRequired,\r\n      page: PropTypes.number.isRequired\r\n    };\r\n  }\r\n\r\n  render() {\r\n    const { rows, rowsPerPage, page } = this.props;\r\n    return (\r\n      <div>\r\n        <StyledPagination rows={rows} rowsPerPage={rowsPerPage} page={page} />\r\n      </div>\r\n    );\r\n  }\r\n}\r\n\r\nWorkoutListItem.propTypes = {\r\n  // eslint-disable-next-line react/forbid-prop-types\r\n  rows: PropTypes.object.isRequired,\r\n  rowsPerPage: PropTypes.number.isRequired,\r\n  page: PropTypes.number.isRequired\r\n};\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/Components/WorkoutListItem.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "WorkoutListItem",
+    "memberof": "src/features/WorkoutList/Components/WorkoutListItem.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/Components/WorkoutListItem.js~WorkoutListItem",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Components/WorkoutListItem.js",
+    "importStyle": "{WorkoutListItem}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 67,
+    "kind": "get",
+    "name": "PropTypes",
+    "memberof": "src/features/WorkoutList/Components/WorkoutListItem.js~WorkoutListItem",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Components/WorkoutListItem.js~WorkoutListItem.PropTypes",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"rows\": *, \"rowsPerPage\": *, \"page\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/features/WorkoutList/Components/WorkoutListItem.js~WorkoutListItem",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/features/WorkoutList/Components/WorkoutListItem.js~WorkoutListItem#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "content": "import constants from \"./Workout.Constants\";\r\nimport { getConfigProperty } from \"../../../settings\";\r\nimport { makeGetCall } from \"../../../utils/Api\";\r\n\r\nconst WORKOUT_LIST = getConfigProperty(\"workoutList\");\r\n\r\n/**\r\n * #desc getWorkoutListRequest - request sent for fetching workout list data\r\n * @return {object} - Returns type and response\r\n */\r\n\r\nexport function getWorkoutListRequest(req) {\r\n  return {\r\n    type: constants.GET_WORKOUT_LIST_REQUEST,\r\n    req\r\n  };\r\n}\r\n\r\n/**\r\n * #desc getWorkoutListSuccess - notifies when request sent callback\r\n * @return {object} - Returns type and response\r\n */\r\n\r\nexport function getWorkoutListSuccess(response) {\r\n  return {\r\n    type: constants.GET_WORKOUT_LIST_SUCCESS,\r\n    response\r\n  };\r\n}\r\n\r\n/**\r\n * #desc getWorkoutListFailure - notifies when request failed\r\n * @return {object} - Returns type and response\r\n */\r\n\r\nexport function getWorkoutListFailure(exception) {\r\n  return {\r\n    type: constants.GET_WORKOUT_LIST_FAILURE,\r\n    exception\r\n  };\r\n}\r\n\r\n/**\r\n * @desc getWorkOutList to get list of workouts\r\n * @param {string} url - url to get the list from\r\n * @return {object} - Returns promise\r\n */\r\n\r\nexport function getWorkoutList(url = WORKOUT_LIST) {\r\n  return (dispatch, getState) => {\r\n    dispatch(getWorkoutListRequest(true));\r\n    return makeGetCall(url, getState)\r\n      .then(res => res.json())\r\n      .then(json => {\r\n        dispatch(getWorkoutListSuccess(json));\r\n        dispatch(getWorkoutListRequest(false));\r\n      })\r\n      .catch(ex => {\r\n        dispatch(getWorkoutListFailure(ex));\r\n        dispatch(getWorkoutListRequest(false));\r\n      });\r\n  };\r\n}\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "WORKOUT_LIST",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Actions.js~WORKOUT_LIST",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "getWorkoutListRequest",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Actions.js~getWorkoutListRequest",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "importStyle": "{getWorkoutListRequest}",
+    "description": "#desc getWorkoutListRequest - request sent for fetching workout list data",
+    "lineNumber": 12,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "Returns type and response"
+    },
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "getWorkoutListSuccess",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Actions.js~getWorkoutListSuccess",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "importStyle": "{getWorkoutListSuccess}",
+    "description": "#desc getWorkoutListSuccess - notifies when request sent callback",
+    "lineNumber": 24,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "Returns type and response"
+    },
+    "params": [
+      {
+        "name": "response",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "getWorkoutListFailure",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Actions.js~getWorkoutListFailure",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "importStyle": "{getWorkoutListFailure}",
+    "description": "#desc getWorkoutListFailure - notifies when request failed",
+    "lineNumber": 36,
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "Returns type and response"
+    },
+    "params": [
+      {
+        "name": "exception",
+        "types": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "getWorkoutList",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Actions.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Actions.js~getWorkoutList",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Actions.js",
+    "importStyle": "{getWorkoutList}",
+    "description": "getWorkOutList to get list of workouts",
+    "lineNumber": 49,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "url to get the list from"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "Returns promise"
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/features/WorkoutList/Containers/Workout.Constants.js",
+    "content": "/**\r\n * @desc Workoutlist Actions and Reducer constants\r\n * @constant\r\n * @type {object}\r\n * @default\r\n */\r\n\r\nconst constants = {\r\n  GET_WORKOUT_LIST_REQUEST: \"GET_WORKOUT_LIST_REQUEST\",\r\n  GET_WORKOUT_LIST_SUCCESS: \"GET_WORKOUT_LIST_SUCCESS\",\r\n  GET_WORKOUT_LIST_FAILURE: \"GET_WORKOUT_LIST_FAILURE\"\r\n};\r\n\r\nexport default constants;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/Containers/Workout.Constants.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "constants",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Constants.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Constants.js~constants",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Constants.js",
+    "importStyle": "constants",
+    "description": "Workoutlist Actions and Reducer constants",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@default",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/features/WorkoutList/Containers/Workout.Container.js",
+    "content": "import { connect } from \"react-redux\";\r\nimport { withRouter } from \"react-router\";\r\nimport { bindActionCreators } from \"redux\";\r\nimport Workout from \"./Workout\";\r\nimport * as workoutAction from \"./Workout.Actions\";\r\n\r\nexport default withRouter(\r\n  connect(\r\n    state => ({\r\n      workoutListData: state.workoutReducer.workoutListData\r\n    }),\r\n    dispatch => ({\r\n      workoutActions: bindActionCreators(workoutAction, dispatch)\r\n    })\r\n  )(Workout)\r\n);\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/Containers/Workout.Container.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "content": "import constants from \"./Workout.Constants\";\r\n\r\n/**\r\n * Declare initalState for workout container\r\n * @constant\r\n * @param {object} listQuery - Declare the initialState value for the listQuery\r\n * @default\r\n * @example const initialState = {\r\n   listQuery : {}\r\n  }\r\n */\r\n\r\nconst initialState = {\r\n  workoutListData: {}\r\n};\r\n\r\n/**\r\n * Reducer function for list\r\n * @param {object} state - contains state object for the reducer list\r\n * @param {object} action - contains type and its data\r\n */\r\n\r\nfunction reducer(state = initialState, action) {\r\n  switch (action.type) {\r\n    case constants.GET_WORKOUT_LIST_SUCCESS: {\r\n      return Object.assign({}, state, {\r\n        workoutListData: action.response\r\n      });\r\n    }\r\n    case constants.GET_WORKOUT_LIST_FAILURE: {\r\n      return Object.assign({}, state, initialState);\r\n    }\r\n    default:\r\n      return state;\r\n  }\r\n}\r\n\r\nexport { initialState };\r\nexport default reducer;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "reducer",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Reducer.js~reducer",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "importStyle": "reducer",
+    "description": "Reducer function for list",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "state",
+        "description": "contains state object for the reducer list"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "contains type and its data"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/Containers/Workout.Reducer.js~initialState",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/Containers/Workout.Reducer.js",
+    "importStyle": "{initialState}",
+    "description": "Declare initalState for workout container",
+    "examples": [
+      "const initialState = {\nlistQuery : {}\n}"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@default",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "listQuery",
+        "description": "Declare the initialState value for the listQuery"
+      }
+    ],
+    "type": {
+      "types": [
+        "{\"workoutListData\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "content": "import styled from \"styled-components\";\r\nimport { withStyles } from \"@material-ui/core/styles\";\r\n// eslint-disable-next-line import/extensions\r\nimport { StyledPagination as DefaultStyledPagination } from \"../Components/StyledPagination\";\r\n\r\nconst customPaginationStyles = theme => ({\r\n  root: {\r\n    width: \"100%\",\r\n    marginTop: theme.spacing.unit * 3\r\n  },\r\n  table: {\r\n    minWidth: 500\r\n  },\r\n  tableWrapper: {\r\n    overflowX: \"auto\"\r\n  }\r\n});\r\n\r\nconst StyledPaginationWrapped = withStyles(customPaginationStyles)(\r\n  DefaultStyledPagination\r\n);\r\n\r\n// eslint-disable-next-line import/prefer-default-export\r\nexport const StyledPagination = styled(StyledPaginationWrapped)`\r\n  .customDefaultColumnStyle {\r\n    width: \"2px\";\r\n    align: \"left\";\r\n  }\r\n\r\n  customActivityColumnStyle {\r\n    width: \"3px\";\r\n  }\r\n`;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "name": "customPaginationStyles",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledPagination.js~customPaginationStyles",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "theme",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "StyledPaginationWrapped",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledPagination.js~StyledPaginationWrapped",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "StyledPagination",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledPagination.js~StyledPagination",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledPagination.js",
+    "importStyle": "{StyledPagination}",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "content": "import styled from \"styled-components\";\r\nimport { withStyles } from \"@material-ui/core/styles\";\r\nimport { StyledTable as DefaultStyledTable } from \"../Components/StyledTable\";\r\n\r\n/**\r\n * @desc create custom theme for wrapping the StyledTable component\r\n * @example tableStyles = theme => ({ # styles go here })\r\n */\r\n\r\nconst tableStyles = theme => ({\r\n  root: {\r\n    flexShrink: 0,\r\n    color: theme.palette.text.secondary,\r\n    marginLeft: theme.spacing.unit * 2.5\r\n  }\r\n});\r\n\r\n/**\r\n * @desc wrap the component inside withStyles high order component and apply the custom theme\r\n * @example tyledTableWrapped = withStyles(tableStyles, { withTheme: true })(DefaultStyledTable)\r\n */\r\n\r\nconst StyledTableWrapped = withStyles(tableStyles, { withTheme: true })(\r\n  DefaultStyledTable\r\n);\r\n// eslint-disable-next-line import/prefer-default-export\r\nexport const StyledTable = styled(StyledTableWrapped)``;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "tableStyles",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTable.js~tableStyles",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "importStyle": null,
+    "description": "create custom theme for wrapping the StyledTable component",
+    "examples": [
+      "tableStyles = theme => ({ # styles go here })"
+    ],
+    "lineNumber": 10,
+    "params": [
+      {
+        "name": "theme",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "StyledTableWrapped",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTable.js~StyledTableWrapped",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "importStyle": null,
+    "description": "wrap the component inside withStyles high order component and apply the custom theme",
+    "examples": [
+      "tyledTableWrapped = withStyles(tableStyles, { withTheme: true })(DefaultStyledTable)"
+    ],
+    "lineNumber": 23,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "variable",
+    "name": "StyledTable",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTable.js~StyledTable",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTable.js",
+    "importStyle": "{StyledTable}",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "content": "import styled from \"styled-components\";\r\nimport TableCell from \"@material-ui/core/TableCell\";\r\nimport { withStyles } from \"@material-ui/core/styles\";\r\n\r\n/**\r\n * @desc create custom theme for wrapping the StyledTableCell component\r\n * @example tableCellStyles = theme => ({ # styles go here })\r\n */\r\n\r\nconst tableCellStyles = theme => ({\r\n  head: {\r\n    backgroundColor: theme.palette.common.black,\r\n    color: theme.palette.common.white,\r\n    fontWeight: \"bold\",\r\n    fontSize: 16\r\n  }\r\n});\r\n\r\n/**\r\n * @desc wrap the component inside withStyles high order component and apply the custom theme\r\n * @example StyledTableCellWrapped = withStyles(tableCellStyles, { withTheme: true })(DefaultStyledTableCell)\r\n */\r\n\r\nconst StyledTableCellWrapped = withStyles(tableCellStyles)(TableCell);\r\nexport const StyledTableCell = styled(StyledTableCellWrapped)``;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "tableCellStyles",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTableCell.js~tableCellStyles",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "importStyle": null,
+    "description": "create custom theme for wrapping the StyledTableCell component",
+    "examples": [
+      "tableCellStyles = theme => ({ # styles go here })"
+    ],
+    "lineNumber": 10,
+    "params": [
+      {
+        "name": "theme",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "name": "StyledTableCellWrapped",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTableCell.js~StyledTableCellWrapped",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "importStyle": null,
+    "description": "wrap the component inside withStyles high order component and apply the custom theme",
+    "examples": [
+      "StyledTableCellWrapped = withStyles(tableCellStyles, { withTheme: true })(DefaultStyledTableCell)"
+    ],
+    "lineNumber": 24,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "StyledTableCell",
+    "memberof": "src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/StyledTableCell.js~StyledTableCell",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/StyledTableCell.js",
+    "importStyle": "{StyledTableCell}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "src/features/WorkoutList/StyledComponents/WorkoutListItem.js",
+    "content": "import styled from \"styled-components\";\r\nimport { WorkoutListItem as DefaultWorkoutListItem } from \"../Components/WorkoutListItem\";\r\n\r\n/**\r\n * @desc WorkoutListItem component wrapped with custom style\r\n * @example WorkoutListItem = styled(UnstyledWorkoutListItem)\r\n */\r\n\r\n// eslint-disable-next-line import/prefer-default-export\r\nexport const WorkoutListItem = styled(DefaultWorkoutListItem)``;\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/features/WorkoutList/StyledComponents/WorkoutListItem.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "WorkoutListItem",
+    "memberof": "src/features/WorkoutList/StyledComponents/WorkoutListItem.js",
+    "static": true,
+    "longname": "src/features/WorkoutList/StyledComponents/WorkoutListItem.js~WorkoutListItem",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/features/WorkoutList/StyledComponents/WorkoutListItem.js",
+    "importStyle": "{WorkoutListItem}",
+    "description": "WorkoutListItem component wrapped with custom style",
+    "examples": [
+      "WorkoutListItem = styled(UnstyledWorkoutListItem)"
+    ],
+    "lineNumber": 10,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from \"react\";\r\nimport ReactDOM from \"react-dom\";\r\nimport { Provider } from \"react-redux\";\r\nimport { ConnectedRouter } from \"connected-react-router\";\r\nimport { createBrowserHistory } from \"history\";\r\n\r\nimport configureStore from \"./stores\";\r\nimport \"./index.css\";\r\nimport Root from \"./Root/Root.Container\";\r\nimport * as serviceWorker from \"./serviceWorker\";\r\n\r\nconst history = createBrowserHistory();\r\nconst store = configureStore(history);\r\n\r\nconst render = Component => {\r\n  ReactDOM.render(\r\n    <Provider store={store}>\r\n      <ConnectedRouter history={history}>\r\n        <Component />\r\n      </ConnectedRouter>\r\n    </Provider>,\r\n    // eslint-disable-next-line no-undef\r\n    document.getElementById(\"root\")\r\n  );\r\n};\r\n\r\n// In development, hot module replacement (HMR) updates the application\r\n// when changes are made, without having to refresh.\r\nif (module.hot) {\r\n  module.hot.accept(\"./Root/Root.Container\", () => {\r\n    // eslint-disable-next-line global-require\r\n    const NextApp = require(\"./Root/Root.Container\").default;\r\n    render(NextApp);\r\n  });\r\n}\r\n\r\nrender(Root);\r\n\r\n// If you want your app to work offline and load faster, you can change\r\n// unregister() to register() below. Note this comes with some pitfalls.\r\n// Learn more about service workers: https://bit.ly/CRA-PWA\r\nserviceWorker.unregister();\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "history",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~history",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "store",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~store",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "render",
+    "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~render",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [
+      {
+        "name": "Component",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/routes.js",
+    "content": "import React from \"react\";\r\nimport { Route, IndexRoute, Redirect } from \"react-router\";\r\nimport Home from \"./Home/Home\";\r\nimport WorkoutList from \"./features/WorkoutList/Containers/Workout\";\r\n\r\nexport default (\r\n  <Route path=\"/\" component={Home}>\r\n    <IndexRoute component={WorkoutList} />\r\n    <Route path=\"workout\" component={WorkoutList} />\r\n    <Redirect from=\"*\" to=\"workout\" />\r\n  </Route>\r\n);\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/routes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "src/serviceWorker.js",
+    "content": "// This optional code is used to register a service worker.\r\n// register() is not called by default.\r\n\r\n// This lets the app load faster on subsequent visits in production, and gives\r\n// it offline capabilities. However, it also means that developers (and users)\r\n// will only see deployed updates on subsequent visits to a page, after all the\r\n// existing tabs open on the page have been closed, since previously cached\r\n// resources are updated in the background.\r\n\r\n// To learn more about the benefits of this model and instructions on how to\r\n// opt-in, read https://bit.ly/CRA-PWA\r\n\r\nconst isLocalhost = Boolean(\r\n  window.location.hostname === \"localhost\" ||\r\n    // [::1] is the IPv6 localhost address.\r\n    window.location.hostname === \"[::1]\" ||\r\n    // 127.0.0.1/8 is considered localhost for IPv4.\r\n    window.location.hostname.match(\r\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\r\n    )\r\n);\r\n\r\nexport function register(config) {\r\n  if (process.env.NODE_ENV === \"production\" && \"serviceWorker\" in navigator) {\r\n    // The URL constructor is available in all browsers that support SW.\r\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);\r\n    if (publicUrl.origin !== window.location.origin) {\r\n      // Our service worker won't work if PUBLIC_URL is on a different origin\r\n      // from what our page is served on. This might happen if a CDN is used to\r\n      // serve assets; see https://github.com/facebook/create-react-app/issues/2374\r\n      return;\r\n    }\r\n\r\n    window.addEventListener(\"load\", () => {\r\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\r\n\r\n      if (isLocalhost) {\r\n        // This is running on localhost. Let's check if a service worker still exists or not.\r\n        checkValidServiceWorker(swUrl, config);\r\n\r\n        // Add some additional logging to localhost, pointing developers to the\r\n        // service worker/PWA documentation.\r\n        navigator.serviceWorker.ready.then(() => {\r\n          console.log(\r\n            \"This web app is being served cache-first by a service \" +\r\n              \"worker. To learn more, visit https://bit.ly/CRA-PWA\"\r\n          );\r\n        });\r\n      } else {\r\n        // Is not localhost. Just register service worker\r\n        registerValidSW(swUrl, config);\r\n      }\r\n    });\r\n  }\r\n}\r\n\r\nfunction registerValidSW(swUrl, config) {\r\n  navigator.serviceWorker\r\n    .register(swUrl)\r\n    .then(registration => {\r\n      registration.onupdatefound = () => {\r\n        const installingWorker = registration.installing;\r\n        if (installingWorker == null) {\r\n          return;\r\n        }\r\n        installingWorker.onstatechange = () => {\r\n          if (installingWorker.state === \"installed\") {\r\n            if (navigator.serviceWorker.controller) {\r\n              // At this point, the updated precached content has been fetched,\r\n              // but the previous service worker will still serve the older\r\n              // content until all client tabs are closed.\r\n              console.log(\r\n                \"New content is available and will be used when all \" +\r\n                  \"tabs for this page are closed. See https://bit.ly/CRA-PWA.\"\r\n              );\r\n\r\n              // Execute callback\r\n              if (config && config.onUpdate) {\r\n                config.onUpdate(registration);\r\n              }\r\n            } else {\r\n              // At this point, everything has been precached.\r\n              // It's the perfect time to display a\r\n              // \"Content is cached for offline use.\" message.\r\n              console.log(\"Content is cached for offline use.\");\r\n\r\n              // Execute callback\r\n              if (config && config.onSuccess) {\r\n                config.onSuccess(registration);\r\n              }\r\n            }\r\n          }\r\n        };\r\n      };\r\n    })\r\n    .catch(error => {\r\n      console.error(\"Error during service worker registration:\", error);\r\n    });\r\n}\r\n\r\nfunction checkValidServiceWorker(swUrl, config) {\r\n  // Check if the service worker can be found. If it can't reload the page.\r\n  fetch(swUrl)\r\n    .then(response => {\r\n      // Ensure service worker exists, and that we really are getting a JS file.\r\n      const contentType = response.headers.get(\"content-type\");\r\n      if (\r\n        response.status === 404 ||\r\n        (contentType != null && contentType.indexOf(\"javascript\") === -1)\r\n      ) {\r\n        // No service worker found. Probably a different app. Reload the page.\r\n        navigator.serviceWorker.ready.then(registration => {\r\n          registration.unregister().then(() => {\r\n            window.location.reload();\r\n          });\r\n        });\r\n      } else {\r\n        // Service worker found. Proceed as normal.\r\n        registerValidSW(swUrl, config);\r\n      }\r\n    })\r\n    .catch(() => {\r\n      console.log(\r\n        \"No internet connection found. App is running in offline mode.\"\r\n      );\r\n    });\r\n}\r\n\r\nexport function unregister() {\r\n  if (\"serviceWorker\" in navigator) {\r\n    navigator.serviceWorker.ready.then(registration => {\r\n      registration.unregister();\r\n    });\r\n  }\r\n}\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/serviceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/serviceWorker.js",
+    "static": true,
+    "longname": "src/serviceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/serviceWorker.js",
+    "importStyle": "{register}",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/serviceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 101,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "config",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/serviceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/serviceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/serviceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 129,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "name": "src/settings.js",
+    "content": "const contextPath = process.env.REACT_APP_API_URL;\r\nconst jsonServerPath = process.env.REACT_APP_JSON_SERVER_API_URL;\r\n\r\nexport const settings = {\r\n  homeURL: `${contextPath}/workoutapp/home`,\r\n  workoutList: `${jsonServerPath}Workouts`,\r\n  rowsPerPage: 5,\r\n  page: 0\r\n};\r\n\r\nfunction getConfigProperty(property) {\r\n  return settings[property];\r\n}\r\n\r\nexport { getConfigProperty };\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/settings.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "name": "contextPath",
+    "memberof": "src/settings.js",
+    "static": true,
+    "longname": "src/settings.js~contextPath",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/settings.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "variable",
+    "name": "jsonServerPath",
+    "memberof": "src/settings.js",
+    "static": true,
+    "longname": "src/settings.js~jsonServerPath",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/settings.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "variable",
+    "name": "settings",
+    "memberof": "src/settings.js",
+    "static": true,
+    "longname": "src/settings.js~settings",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/settings.js",
+    "importStyle": "{settings}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"homeURL\": *, \"workoutList\": *, \"rowsPerPage\": number, \"page\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "getConfigProperty",
+    "memberof": "src/settings.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/settings.js~getConfigProperty",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/settings.js",
+    "importStyle": "{getConfigProperty}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "property",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "src/stores.js",
+    "content": "import { createStore, compose, applyMiddleware } from \"redux\";\r\nimport reduxThunk from \"redux-thunk\";\r\nimport { routerMiddleware } from \"react-router-redux\";\r\nimport { createLogger } from \"redux-logger\";\r\nimport rootReducer from \"./combined.reducer\";\r\n\r\nlet middlewares = [reduxThunk];\r\n\r\nconst logger = createLogger();\r\n\r\nif (process.env.Node_ENV !== \"production\" && process.env.Node_ENV !== \"test\") {\r\n  middlewares = [\r\n    ...middlewares,\r\n    logger,\r\n    // eslint-disable-next-line global-require\r\n    require(\"redux-immutable-state-invariant\").default()\r\n  ];\r\n}\r\n\r\nexport default function configureStore(history) {\r\n  const composeEnhancers =\r\n    // eslint-disable-next-line no-undef\r\n    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;\r\n  const enhancer = composeEnhancers(\r\n    applyMiddleware(...middlewares, routerMiddleware(history))\r\n  );\r\n  const store = createStore(rootReducer(history), enhancer);\r\n\r\n  if (\r\n    process.env.Node_ENV !== \"production\" &&\r\n    process.env.Node_ENV !== \"test\" &&\r\n    module.hot\r\n  ) {\r\n    module.hot.accept(\"./combined.reducer\", () => {\r\n      // eslint-disable-next-line global-require\r\n      const nextReducer = require(\"./combined.reducer\").default;\r\n      store.replaceReducer(nextReducer);\r\n    });\r\n  }\r\n\r\n  return store;\r\n}\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/stores.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "middlewares",
+    "memberof": "src/stores.js",
+    "static": true,
+    "longname": "src/stores.js~middlewares",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/stores.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/stores.js",
+    "static": true,
+    "longname": "src/stores.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/stores.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "configureStore",
+    "memberof": "src/stores.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores.js~configureStore",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/stores.js",
+    "importStyle": "configureStore",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [
+      {
+        "name": "history",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/utils/Api.js",
+    "content": "import fetch from \"isomorphic-fetch\";\r\n\r\nconst SUCCESS_RESPONSE_MIN_LIMIT = 200;\r\nconst SUCCESS_RESPONSE_MAX_LIMIT = 300;\r\n\r\n/**\r\n * Common Fetch API for POST request\r\n * @param (string) apiURL - API\r\n * @param (object) postData - Json body for post request\r\n * @param (function) callBack - Callback function for returning the successful response\r\n * @return (promise) fetch - Promise return from the fetch post request\r\n */\r\n\r\nexport function requestPost(apiURL, postData, callBack) {\r\n  const headerObject = {\r\n    \"content-Type\": \"application/json\",\r\n    Accept: \"application/json\"\r\n  };\r\n\r\n  const paramsObject = {\r\n    method: \"POST\",\r\n    body: JSON.stringify(postData),\r\n    headers: new Headers(headerObject)\r\n  };\r\n\r\n  return fetch(apiURL, paramsObject)\r\n    .then(response => response.json())\r\n    .then(json => callBack(json, postData))\r\n    .catch(function(error) {\r\n      console.error(\"There is a problem with the request: \", error.message);\r\n    });\r\n}\r\n\r\n/**\r\n * Common Fetch API for GET request\r\n * @param (string) apiURL - API\r\n * @param (object) params - Json body for get request\r\n * @param (function) callBack - Callback function for returning the successful response\r\n * @return (promise) fetch - Promise return from the fetch get request\r\n */\r\n\r\nexport function requestGet(apiURL, params, callBack) {\r\n  let apiURLWithParams = \"\";\r\n\r\n  if (params) apiURLWithParams = `${apiURL}?${params}`;\r\n  else apiURLWithParams = apiURL;\r\n\r\n  const paramsObject = {\r\n    method: \"GET\",\r\n    cache: \"default\"\r\n  };\r\n\r\n  return fetch(apiURLWithParams, paramsObject)\r\n    .then(response => response.json())\r\n    .then(json => callBack(json))\r\n    .catch(function(error) {\r\n      console.error(\"There is a problem with the request: \", error.message);\r\n    });\r\n}\r\n\r\n/**\r\n * Common Fetch API for callAPI\r\n * @param (string) url - API url\r\n * @param (string) options - query options for the callAPI request\r\n * @return (promise) fetch - Promise return from the fetch callAPI request\r\n */\r\n\r\nexport function callAPI(url, options) {\r\n  options = options === null ? {} : options;\r\n  options.credentials = options === null ? \"same-origin\" : options.credentials;\r\n  return fetch(url, options).then(function(response) {\r\n    if (\r\n      response.status >= SUCCESS_RESPONSE_MIN_LIMIT &&\r\n      response.status < SUCCESS_RESPONSE_MAX_LIMIT\r\n    ) {\r\n      return Promise.resolve(response);\r\n    }\r\n    const error = new Error(response.statusText || response.status);\r\n    error.response = response;\r\n    return Promise.reject(error);\r\n  });\r\n}\r\n\r\n/**\r\n * Common Fetch API for makeGetCall\r\n * @param (string) URL - API URL\r\n * @param (string) state - query state for the get request\r\n * @return (promise) fetch - Promise return from the fetch get request\r\n */\r\nexport function makeGetCall(url, state) {\r\n  const headerObject = {\r\n    \"content-Type\": \"application/json\",\r\n    Accept: \"application/json\",\r\n    \"Access-Control-Allow-Origin\": \"*\",\r\n    \"Access-Control-Allow-Methods\": \"GET, POST, PATCH, PUT, DELETE, OPTIONS\",\r\n    \"Access-Control-Allow-Headers\": \"Origin, Content-Type, X-Auth-Token\"\r\n  };\r\n\r\n  const options = {\r\n    method: \"GET\",\r\n    headers: new Headers(headerObject),\r\n    credentials: \"same-origin\"\r\n  };\r\n\r\n  return fetch(url, options)\r\n    .then(function(response) {\r\n      return Promise.resolve(response);\r\n    })\r\n    .catch(error => Promise.reject(error));\r\n}\r\n\r\n/**\r\n * Common Fetch API for makePostCall\r\n * @param (string) URL - API URL\r\n * @param (object) postData - JSON body for post request\r\n * @param (string) state - state for returning successful response\r\n * @return (promise) fetch - Promise return from the fetch post request\r\n */\r\nexport function makePostCall(url, postData, state) {\r\n  const headerObject = {\r\n    \"content-Type\": \"application/json\",\r\n    Accept: \"application/json\",\r\n    \"Access-Control-Allow-Origin\": \"*\",\r\n    \"Access-Control-Allow-Methods\": \"GET, POST, PATCH, PUT, DELETE, OPTIONS\",\r\n    \"Access-Control-Allow-Headers\": \"Origin, Content-Type, X-Auth-Token\"\r\n  };\r\n\r\n  const options = {\r\n    method: \"POST\",\r\n    headers: new Headers(headerObject),\r\n    credentials: \"same-origin\",\r\n    body: JSON.stringify(postData)\r\n  };\r\n\r\n  return fetch(url, options)\r\n    .then(function(response) {\r\n      return Promise.resolve(response);\r\n    })\r\n    .catch(error => Promise.reject(error));\r\n}\r\n\r\n/**\r\n * Common Fetch API for makeDeleteCall\r\n * @param (string) URL - API URL\r\n * @param (object) method - JSON body for the request\r\n * @param (string) state - state for returning successful response\r\n * @return (promise) fetch - Promise return from the fetch post request\r\n */\r\nexport function makeDeleteCall(url, method, state) {\r\n  const headerObject = {\r\n    \"content-Type\": \"application/json\",\r\n    Accept: \"application/json\"\r\n  };\r\n\r\n  const options = {\r\n    method: \"DELETE\",\r\n    headers: new Headers(headerObject),\r\n    credentials: \"same-origin\"\r\n  };\r\n\r\n  return fetch(url, options)\r\n    .then(function(response) {\r\n      return Promise.resolve(response);\r\n    })\r\n    .catch(error => Promise.reject(error));\r\n}\r\n",
+    "static": true,
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/src/utils/Api.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "name": "SUCCESS_RESPONSE_MIN_LIMIT",
+    "memberof": "src/utils/Api.js",
+    "static": true,
+    "longname": "src/utils/Api.js~SUCCESS_RESPONSE_MIN_LIMIT",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "variable",
+    "name": "SUCCESS_RESPONSE_MAX_LIMIT",
+    "memberof": "src/utils/Api.js",
+    "static": true,
+    "longname": "src/utils/Api.js~SUCCESS_RESPONSE_MAX_LIMIT",
+    "access": "public",
+    "export": false,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "requestPost",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~requestPost",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{requestPost}",
+    "description": "Common Fetch API for POST request",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "apiURL - API"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(object)",
+        "description": "postData - Json body for post request"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(function)",
+        "description": "callBack - Callback function for returning the successful response"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch post request"
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "requestGet",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~requestGet",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{requestGet}",
+    "description": "Common Fetch API for GET request",
+    "lineNumber": 42,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "apiURL - API"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(object)",
+        "description": "params - Json body for get request"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(function)",
+        "description": "callBack - Callback function for returning the successful response"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch get request"
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "callAPI",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~callAPI",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{callAPI}",
+    "description": "Common Fetch API for callAPI",
+    "lineNumber": 68,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "url - API url"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "options - query options for the callAPI request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch callAPI request"
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "function",
+    "name": "makeGetCall",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~makeGetCall",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{makeGetCall}",
+    "description": "Common Fetch API for makeGetCall",
+    "lineNumber": 90,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "URL - API URL"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "state - query state for the get request"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch get request"
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "makePostCall",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~makePostCall",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{makePostCall}",
+    "description": "Common Fetch API for makePostCall",
+    "lineNumber": 119,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "URL - API URL"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(object)",
+        "description": "postData - JSON body for post request"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "state - state for returning successful response"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch post request"
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "makeDeleteCall",
+    "memberof": "src/utils/Api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/Api.js~makeDeleteCall",
+    "access": "public",
+    "export": true,
+    "importPath": "workoutapp-client/src/utils/Api.js",
+    "importStyle": "{makeDeleteCall}",
+    "description": "Common Fetch API for makeDeleteCall",
+    "lineNumber": 149,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "URL - API URL"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(object)",
+        "description": "method - JSON body for the request"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "(string)",
+        "description": "state - state for returning successful response"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "(promise) fetch - Promise return from the fetch post request"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n\n## Available Scripts\n\nIn the project directory, you can run:\n\n### `npm start`\n\nRuns the app in the development mode.<br>\nOpen [http://localhost:3000](http://localhost:3000) to view it in the browser.\n\nThe page will reload if you make edits.<br>\nYou will also see any lint errors in the console.\n\n### `npm test`\n\nLaunches the test runner in the interactive watch mode.<br>\nSee the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n\n### `npm run build`\n\nBuilds the app for production to the `build` folder.<br>\nIt correctly bundles React in production mode and optimizes the build for the best performance.\n\nThe build is minified and the filenames include the hashes.<br>\nYour app is ready to be deployed!\n\nSee the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n\n### `npm run eject`\n\n**Note: this is a one-way operation. Once you `eject`, you can’t go back!**\n\nIf you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.\n\nInstead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.\n\nYou don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.\n\n## Learn More\n\nYou can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).\n\nTo learn React, check out the [React documentation](https://reactjs.org/).\n\n### Code Splitting\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting\n\n### Analyzing the Bundle Size\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size\n\n### Making a Progressive Web App\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app\n\n### Advanced Configuration\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration\n\n### Deployment\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/deployment\n\n### `npm run build` fails to minify\n\nThis section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify\n\n## To install yarn\n```bash\n    brew install yarn\n```\n\n## To install packages\n```bash\n    yarn\n```\n\n## To add a package\n```\n    yarn add {--dev} {package}\n```\n\n## To update packages\n```bash\n    yarn upgrade {package}\n```\n\n## To run lint on all js files\n```bash\n    yarn run eslint '**/*.js'\n```\n\n## Add gitignore file\n```bash \n   touch .gitignore\n```\n\n## Git commands\n### for develop branch\n```git commands\ngit init\ngit add .\ngit commit -m \"first commit\"\ngit remote add https://github.com/vsprakash2003/MyGraphQLApollo-Client.git\ngit push -u origin develop \n```\n\n### for feature branch\n```git commands\ngit checkout -b origin/f/{branch name}\ngit add .\ngit commit -m \"second commit\"\ngit push -u origin origin/f/{branch name}\n```\n\n### for creating a pull request from feature branch\n```git commands\ngit rebase origin/develop\ngo to the repo on GitHub and click the feature branch\ncreate pull request\nfill out the pull request template\nadd the PR label \"Ready For Review\", and assign members (if it is you alone, assign yourself) to the PR\nsubmit pull request\n```\n### for approving pull request and merging to develop branch\n``` PR instructions\nclick on Pull requests tab in github. If there is a PR waiting for approval you will see one\nIf there are merge conflicts, tell the committer(s) to pull develop again and review from beginning when they are finished\nmerge pull request via GitHub online interface. select \"squash and merge\" in the dropdown\ndelete the branch from GitHub via online interface\ngit branch -d origin/f/landingpage. This will delete the branch locally\n```\n\n### for merging develop branch to master\n```git commands\ngit rebase origin/master\nperform the pull request steps from develop branch as detailed above to merge to master\n```",
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"workoutapp-client\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"proxy\": \"http://localhost:3001\",\n  \"dependencies\": {\n    \"babel-polyfill\": \"^6.26.0\",\n    \"prop-types\": \"^15.7.2\",\n    \"react\": \"^16.8.6\",\n    \"react-dom\": \"^16.8.6\",\n    \"react-redux\": \"^7.0.1\",\n    \"react-router\": \"^5.0.0\",\n    \"react-scripts\": \"2.1.8\",\n    \"redux\": \"^4.0.1\"\n  },\n  \"devDependencies\": {\n    \"@material-ui/core\": \"^3.9.3\",\n    \"@material-ui/icons\": \"^3.0.2\",\n    \"apollo-cache-inmemory\": \"^1.5.1\",\n    \"apollo-client\": \"^2.5.1\",\n    \"apollo-link\": \"^1.2.11\",\n    \"apollo-link-error\": \"^1.1.10\",\n    \"apollo-link-http\": \"^1.5.14\",\n    \"classnames\": \"^2.2.6\",\n    \"connected-react-router\": \"^6.4.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-external-ecmascript-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint-config-airbnb\": \"^17.1.0\",\n    \"eslint-config-prettier\": \"^4.3.0\",\n    \"eslint-plugin-import\": \"^2.18.0\",\n    \"eslint-plugin-jsx-a11y\": \"^6.2.3\",\n    \"eslint-plugin-prettier\": \"^3.1.0\",\n    \"eslint-plugin-react\": \"^7.14.2\",\n    \"graphql\": \"^14.2.1\",\n    \"history\": \"^4.9.0\",\n    \"isomorphic-fetch\": \"^2.2.1\",\n    \"js-yaml\": \"^3.13.1\",\n    \"json-server\": \"^0.15.0\",\n    \"lodash\": \"^4.17.15\",\n    \"lodash.template\": \"^4.5.0\",\n    \"prettier\": \"^1.18.2\",\n    \"react-md\": \"^1.10.0\",\n    \"react-router-dom\": \"^5.0.0\",\n    \"react-router-redux\": \"^5.0.0-alpha.9\",\n    \"redux-immutable-state-invariant\": \"^2.1.0\",\n    \"redux-logger\": \"^3.0.6\",\n    \"redux-thunk\": \"^2.3.0\",\n    \"sass\": \"^1.18.0\",\n    \"styled-components\": \"^4.2.0\"\n  },\n  \"scripts\": {\n    \"start\": \"json-server --watch workout.json --port 3001 & react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"docs\": \"./node_modules/.bin/esdoc -c esdoc.json\",\n    \"lint\": \"eslint src/**/*.js\",\n    \"lint:watch\": \"esw -w src/**/*.js\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  },\n  \"browserslist\": [\n    \">0.2%\",\n    \"not dead\",\n    \"not ie <= 11\",\n    \"not op_mini all\"\n  ]\n}\n",
+    "longname": "/Users/prakashv/Documents/GitHub/Workoutapp-client/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

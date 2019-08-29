@@ -11,7 +11,7 @@ import constants from "./Workout.Constants";
  */
 
 const initialState = {
-  workoutListData: {}
+  workoutListData: []
 };
 
 /**
