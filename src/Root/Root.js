@@ -1,19 +1,31 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
-import About from "../Home/About";
-import WorkoutList from "../features/WorkoutList/Containers/Workout.Container";
-/* import SideNav from '../features/SideNavBar/Containers/SideNav' */
+import { Routes } from "./Routes";
 
-export default class Root extends Component {
-  render() {
-    return (
+// eslint-disable-next-line import/prefer-default-export
+export const Root = () => {
+  return (
+    <div>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={WorkoutList} />
-          <Route path="/about" component={About} />
+          {Routes.map(route => {
+            const MyComponent = route.sidebarName;
+            return (
+              <Route
+                key={route.path}
+                exact={route.exact ? route.exact : false}
+                path={route.path}
+                render={() => (
+                  <MyComponent
+                    content={route.content ? <route.content /> : null}
+                  />
+                )}
+              />
+            );
+          })}
         </Switch>
       </BrowserRouter>
-    );
-  }
-}
+    </div>
+  );
+};

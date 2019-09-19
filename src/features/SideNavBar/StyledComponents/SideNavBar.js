@@ -64,4 +64,5 @@ const StyledSideNavBar = withStyles(styles, { withTheme: true })(
   DefaultSideNavBar
 );
 
+// eslint-disable-next-line import/prefer-default-export
 export const SideNavBar = styled(StyledSideNavBar)``;

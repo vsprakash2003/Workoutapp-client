@@ -35,7 +35,6 @@ export class StyledPagination extends Component {
     this.setState({ page: 0, rowsPerPage: event.target.value });
   };
 
-
   render() {
     const { classes } = this.props;
     const { rows, rowsPerPage, page } = this.props;

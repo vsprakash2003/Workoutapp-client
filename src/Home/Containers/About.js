@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
 
+// eslint-disable-next-line react/prefer-stateless-function
 class About extends Component {
   render() {
     return (

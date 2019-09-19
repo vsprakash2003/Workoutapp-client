@@ -1,8 +1,7 @@
-/* eslint-disable react/forbid-prop-types */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-
+import { Link, withRouter } from "react-router-dom";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
@@ -17,13 +16,15 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import Home from "@material-ui/icons/Home";
-import Notes from "@material-ui/icons/Notes";
+import { Root } from "../../../Root/Routes";
 
-// eslint-disable-next-line import/prefer-default-export
 export class SideNavBar extends Component {
   state = {
     open: false
+  };
+
+  activeRoute = (routeName) => {
+    return this.props.location.pathname.indexOf(routeName) > -1 ? true : false;
   };
 
   handleDrawerOpen = () => {
@@ -35,6 +36,7 @@ export class SideNavBar extends Component {
   };
 
   render() {
+    console.log("Props is", this.props)
     const { classes, theme } = this.props;
     const { open } = this.state;
 
@@ -81,14 +83,18 @@ export class SideNavBar extends Component {
           </div>
           <Divider />
           <List>
-            {["Home", "Form"].map((text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <Home /> : <Notes />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
+            {Root.map((prop, key) => {
+              return (
+                <Link to={prop.path} style={{ textDecoration: 'none' }} key={key}>
+                  <ListItem selected={this.activeRoute(prop.path)}>
+                    <ListItemIcon>
+                      {prop.icon}
+                    </ListItemIcon>
+                    <ListItemText primary={prop} />
+                  </ListItem>
+                </Link>
+              );
+            })}
           </List>
         </Drawer>
         <main
@@ -107,3 +113,5 @@ SideNavBar.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired
 };
+
+export default withRouter(SideNavBar);
