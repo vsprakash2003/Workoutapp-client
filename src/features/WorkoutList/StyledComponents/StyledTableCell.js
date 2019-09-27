@@ -9,8 +9,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 const tableCellStyles = theme => ({
   head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
+    color: theme.palette.common.black,
     fontWeight: "bold",
     fontSize: 16
   }

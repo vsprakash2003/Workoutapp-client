@@ -17,8 +17,8 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import Home from "@material-ui/icons/Home";
-import Notes from "@material-ui/icons/Notes";
+
+import { Consumer } from "../../../Root/RouteProvider";
 
 // eslint-disable-next-line import/prefer-default-export
 export class SideNavBar extends Component {
@@ -37,7 +37,6 @@ export class SideNavBar extends Component {
   render() {
     const { classes, theme } = this.props;
     const { open } = this.state;
-
     return (
       <div className={classes.root}>
         <CssBaseline />
@@ -47,7 +46,7 @@ export class SideNavBar extends Component {
             [classes.appBarShift]: open
           })}
         >
-          <Toolbar disableGutters={!open}>
+          <Toolbar disableGutters={!open} className={classes.regular}>
             <IconButton
               color="inherit"
               aria-label="Open drawer"
@@ -81,14 +80,16 @@ export class SideNavBar extends Component {
           </div>
           <Divider />
           <List>
-            {["Home", "Form"].map((text, index) => (
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <Home /> : <Notes />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
+            <Consumer>
+              {Routes => {
+                return Routes.map(data => (
+                  <ListItem button key={data.sideBarName}>
+                    <ListItemIcon>{<data.sideBarIcon />}</ListItemIcon>
+                    <ListItemText primary={data.sideBarName} />
+                  </ListItem>
+                ));
+              }}
+            </Consumer>
           </List>
         </Drawer>
         <main

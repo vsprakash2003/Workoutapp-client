@@ -1,3 +1,5 @@
+/* eslint-disable react/forbid-prop-types */
+/* eslint-disable import/prefer-default-export */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import IconButton from "@material-ui/core/IconButton";
@@ -8,22 +10,23 @@ import LastPageIcon from "@material-ui/icons/LastPage";
 
 export class StyledTable extends Component {
   handleFirstPageButtonClick = event => {
-    this.props.onChangePage(event, 0);
+    const { onChangePage } = this.props;
+    onChangePage(event, 0);
   };
 
   handleBackButtonClick = event => {
-    this.props.onChangePage(event, this.props.page - 1);
+    const { onChangePage, page } = this.props;
+    onChangePage(event, page - 1);
   };
 
   handleNextButtonClick = event => {
-    this.props.onChangePage(event, this.props.page + 1);
+    const { onChangePage, page } = this.props;
+    onChangePage(event, page + 1);
   };
 
   handleLastPageButtonClick = event => {
-    this.props.onChangePage(
-      event,
-      Math.max(0, Math.ceil(this.props.count / this.props.rowsPerPage) - 1)
-    );
+    const { onChangePage, count, rowsPerPage } = this.props;
+    onChangePage(event, Math.max(0, Math.ceil(count / rowsPerPage) - 1));
   };
 
   render() {

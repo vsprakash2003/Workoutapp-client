@@ -1,9 +1,20 @@
 import styled from "styled-components";
 import { withStyles } from "@material-ui/core/styles";
+import { createMuiTheme } from "@material-ui/core";
 // eslint-disable-next-line import/extensions
 import { StyledPagination as DefaultStyledPagination } from "../Components/StyledPagination";
 
-const customPaginationStyles = theme => ({
+const theme = createMuiTheme({
+  overrides: {
+    MuiGridItem: {
+      root: {
+        paddingTop: 0
+      }
+    }
+  }
+});
+
+const customPaginationStyles = () => ({
   root: {
     width: "100%",
     marginTop: theme.spacing.unit * 3
